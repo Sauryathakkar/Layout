@@ -1,247 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavasa Travel Guide</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
-        header img {
-            width: 100px;
-            height: 100px;
-        }
-        header .nav-item {
-            cursor: pointer;
-        }
-        article {
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            margin: 20px auto;
-            max-width: 900px;
-        }
-        img {
-            width: 80%;
-            max-width: 700px;
-            border-radius: 10px;
-            margin-top: 15px;
-        }
-        h2, h3 {
-            margin-top: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lavasa Travel Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+ 
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+  
+      margin-left: 240px;
+    }
+
+    article {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 900px;
+    }
+
+  
+
+    #left-panel {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 220px;              
+      height: 100vh;              
+      overflow-y: auto;          
+      background-color: #fff;     
+      border-right: 1px solid #ddd;
+      padding: 16px;
+      box-sizing: border-box;
+      z-index: 9999;
+    }
+
+   
+
+   
+
+    
+  
+    
+    
+
+  
+    #left-panel::-webkit-scrollbar { width: 8px; }
+    #left-panel::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 4px; }
+  </style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="row bg-dark text-light align-items-center p-2">
-            <div class="col-1">
-                <img src="logo_class_website.jpg" alt="Logo">
+
+  <aside id="left-panel" aria-label="Travel options and quick facts">
+    <h2>Travel Options</h2>
+    <ul>
+      <li><strong>Travel Packages:</strong> Customizable tours including sightseeing, boating & adventure sports.</li>
+      <li><strong>Transportation:</strong> Shuttle services, cab rentals & scenic bike rides around Lavasa.</li>
+      <li><strong>Hotels:</strong> Lakeside resorts, budget stays & luxury villas for a cozy vacation.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Quick Facts about Lavasa</h2>
+    <ul>
+      <li>Lavasa is India’s first <strong>planned hill city</strong>, inspired by the Italian town Portofino.</li>
+      <li>It’s located about <strong>65 km from Pune</strong> and around <strong>200 km from Mumbai</strong>.</li>
+      <li>The city enjoys a <strong>pleasant climate</strong> all year round — perfect for weekend getaways.</li>
+      <li>Popular for <strong>cycling, boating, and trekking</strong>.</li>
+      <li><strong>Best Time to Visit:</strong> September to March — when the weather is cool and misty.</li>
+    </ul>
+
+    <!-- You can keep adding more small blocks here; the panel will scroll -->
+    <hr>
+    <h2>Notes</h2>
+    <ul>
+      <li>Reserve boating slots in advance during peak season.</li>
+      <li>Carry light rain gear during monsoon months.</li>
+    </ul>
+  </aside>
+
+  <!-- Header -->
+  <header>
+    <div class="row bg-dark text-light align-items-center p-2">
+      <div class="col-1">
+        <img src="logo_class_website.jpg" alt="Logo">
+      </div>
+      <div class="col-4 fs-3">Lavasa Diaries</div>
+      <div class="col nav-item text-center fs-5">About Us</div>
+      <div class="col nav-item text-center fs-5">Gallery</div>
+      <div class="col nav-item text-center fs-5">Reviews</div>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <h2>Lavasa – The Modern Hill City of India</h2>
+      <p>Lavasa is a peaceful, picturesque city near Pune, Maharashtra — known for its stunning lakeside views, European-style architecture, and calm environment that feels far away from the city rush.</p>
+
+      <h2>History of Lavasa</h2>
+      <p>Lavasa is a planned hill city inspired by the Italian town of Portofino. Conceived in the early 2000s, it was designed as a modern, eco-friendly destination blending natural beauty with urban living. Nestled along the banks of the Varasgaon Lake and surrounded by the Western Ghats, it offers scenic landscapes, lakeside promenades, and vibrant townships. Today, Lavasa is a popular getaway for leisure, adventure, and cultural experiences.</p>
+
+      <h3>A Blend of Nature and Modern Living</h3>
+      <p>Built around the serene <b>Varasgaon Lake</b>, Lavasa offers a perfect mix of modern infrastructure and natural beauty. The colorful buildings, clean roads, and refreshing mountain air make it a favorite weekend destination for travelers.</p>
+
+      <h2>Top 9 Places to Visit in Lavasa</h2>
+
+      <h3>Know Lavasa</h3>
+      <section>
+        <ul>
+          <li><b>1. mulshi dam</b> – Scenic dam surrounded by lush greenery.</li>
+          <details>
+            <summary>Mulshi Dam</summary>
+            <div>Mulshi Dam, the term Mulshi is derived from a small village at the center of the Mulshi Valley. Placed at the periphery of the town, it is recognized as an eco-tourism hotspot. The dam is famous for its waterfalls, bird-watching, trekking, and for unlimited sightseeing.</div>
+            <div>Location: Mulshi Taluk, Pune which is almost 60 km from Lavasa.</div>
+            <img src="">
+          </details>
+
+          <li><b>2. dasve viewpoint</b> – Perfect for photography and relaxing by the water.</li>
+          <details>
+            <summary>Dasve viewpoint</summary>
+            <div>The Dasve Viewpoint offers picturesque vistas of the surrounding biodiversity of Lavasa. It is quite famous among photographers due to the unparalleled panoramic views that the site offers. From here, you can admire the lush greenery on the mountain ranges, the splendid lakes, and the beautiful rivers.</div>
+            <div>Location: SH 57, Lavasa, Maharashtra</div>
+            <img src="">
+          </details>
+
+          <li><b>3. Lavasa Market</b> – A place to experience Lavasa's culture.</li>
+          <details>
+            <summary>Tamhini Ghat</summary>
+            <div>Visiting the most alluring Tamhini Ghat is yet another dazzling experience to all tourists. Surrounded by cascading waters, lakes and dense woods. Located on the crest of Sahyadris, this green passage is well known for a long drive, featured with high mountains, and green valley on both sides.</div>
+            <div>Location: This mountain pass is located between Tamhini and Mulshi lake, which is 69 km away from Lavasa.</div>
+            <img src="">
+          </details>
+        </ul>
+
+        <h3>Picnic Spots</h3>
+        <ul>
+          <li><b>4. devkund waterfall</b> astonishingly beautiful scenic view.</li>
+          <details>
+            <summary>Devkund Waterfall</summary>
+            <p>Devkund Waterfall, about 220 ft high, is a beautiful spot with dense greenery. Visitors are advised to play in shallow waters for safety.</p>
+            <p>Location: Devkund, Lavasa, Maharashtra</p>
+            <img src="devkund.jpg" alt="Devkund Waterfall">
+          </details>
+
+          <li><b>5. Tenvar Dam</b> – Trekking and cycling routes with panoramic views.</li>
+          <details>
+            <summary>Temghar Dam</summary>
+            <p>Temghar Dam is an earthfill and gravity dam on the Mutha River near Mulshi, Pune district, Maharashtra.</p>
+            <p>Location: Mulshi, Lavasa, Maharashtra</p>
+            <img src="temghar.jpg" alt="Temghar Dam">
+          </details>
+
+          <li><b>6. bamboosa</b> – Less crowded spot ideal for nature lovers.</li>
+          <details>
+            <summary>Bamboosa</summary>
+            <p>Bamboosa is a cultural center and handicraft factory that showcases bamboo products. Visitors can observe artisans, buy furniture, decor items, and saplings from the on-site nursery.</p>
+            <p>Location: Survey No. 60, Mugaon Lavasa, Post Pathershet, Taluka Mulshi, Pune, India</p>
+            <img src="bamboosa.jpg" alt="Bamboosa Lavasa">
+          </details>
+        </ul>
+
+        <h3>Activities</h3>
+        <ul>
+          <li> 🚣 <strong>Boating:</strong> You can enjoy boating at <em>Lake View</em>, surrounded by peaceful waters and hills.
+            <br>Best Time: <time datetime="06:00">9:00 AM – 11:00 AM</time> or <time datetime="16:00">4:00 PM – 6:00 PM</time>.</li>
+
+          <li> 🥾 <strong>Trekking:</strong> Explore the <em>Lingya Ghat Waterfall, Lavasa Nature Trail & Devkund waterfall Trek</em>.
+            <br>Best Time: <time datetime="07:00">7:00 AM – 10:00 AM</time> or <time datetime="16:00">4:00 PM – 6:00 PM</time>.</li>
+
+          <li> 🎨 <strong>Leisure Walks:</strong> Stroll along the <em>Lakeside, Portofino Street, Thicket Street & Hill View</em>.
+            <br>Best Time: <time datetime="17:00">5:00 PM – 7:00 PM</time>.</li>
+        </ul>
+
+        <h3>Accommodations & Experiences</h3>
+        <ul>
+          <li><b>7. Anatriksh</b> – Spiritual and serene temple on the hills.</li>
+          <details>
+            <summary>antakrish</summary>
+            <div class="antariksh">
+              <h3>Hotel Antariksh</h3>
             </div>
-            <div class="col-4 fs-3">Lavasa Diaries</div>
-            <div class="col nav-item text-center fs-5">About Us</div>
-            <div class="col nav-item text-center fs-5">Gallery</div>
-            <div class="col nav-item text-center fs-5">Reviews</div>
-        </div>
-    </header>
-
-   
-    <main>
-        <article>
-
-          
-            <h2>Lavasa – The Modern Hill City of India</h2>
-            <p>Lavasa is a peaceful, picturesque city near Pune, Maharashtra — known for its stunning lakeside views, European-style architecture, and calm environment that feels far away from the city rush.</p>
-
-          
-            <h2>History of Lavasa</h2>
-            <p>Lavasa is a planned hill city inspired by the Italian town of Portofino. Conceived in the early 2000s, it was designed as a modern, eco-friendly destination blending natural beauty with urban living. Nestled along the banks of the Varasgaon Lake and surrounded by the Western Ghats, it offers scenic landscapes, lakeside promenades, and vibrant townships. Today, Lavasa is a popular getaway for leisure, adventure, and cultural experiences.</p>
-
-           
-            <h3>A Blend of Nature and Modern Living</h3>
-            <p>Built around the serene <b>Varasgaon Lake</b>, Lavasa offers a perfect mix of modern infrastructure and natural beauty. The colorful buildings, clean roads, and refreshing mountain air make it a favorite weekend destination for travelers.</p>
-
-           
-            <h2>Top 9 Places to Visit in Lavasa</h2>
-
-            <h3>Know Lavasa</h3>
-             <section>
-            <ul>
-                <li><b>1. mulshi dam</b> – Scenic dam surrounded by lush greenery.</li>
-              <details>
-  <summary>Mulshi Dam</summary>
-  <div>Mulshi Dam, the term Mulshi is derived from a small village at the center of the Mulshi Valley. Placed at the periphery of the town, it is recognized as an eco-tourism hotspot. The dam is famous for its waterfalls, bird-watching, trekking, and for unlimited sightseeing.</div>
-  <div>Location: Mulshi Taluk, Pune which is almost 60 km from Lavasa.</div>
-  <img src="">
-</details>
-
-                <li><b>2. dasve viewpoint</b> – Perfect for photography and relaxing by the water.</li>
-                <details>
-  <summary>Dasve viewpoint</summary>
-  <div>The Dasve Viewpoint offers picturesque vistas of the surrounding biodiversity of Lavasa. It is quite famous among photographers due to the unparalleled panoramic views that the site offers. From here, you can admire the lush greenery on the mountain ranges, the splendid lakes, and the beautiful rivers.</div>
-  <div>Location: SH 57, Lavasa, Maharashtra</div>
-  <img src="">
-</details>
-
-                <li><b>3. Lavasa Market</b> – A place to experience Lavasa's culture.</li>
-                <details>
-  <summary>Tamhini Ghat</summary>
-  <div>Visiting the most alluring Tamhini Ghat is yet another dazzling experience to all tourists. Surrounded by cascading waters, lakes and dense woods. Located on the crest of Sahyadris, this green passage is well known for a long drive, featured with high mountains, and green valley on both sides.</div>
-  <div>Location: This mountain pass is located between Tamhini and Mulshi lake, which is 69 km away from Lavasa.</div>
-  <img src="">
-</details>
-            </ul>
-
-            <h3>Picnic Spots</h3>
-            <ul>
-                <li><b>4. devkund waterfall</b> astonishingly beautiful scenic view.</li>
-                <details>
-                    <summary>Devkund Waterfall</summary>
-                    <p>Devkund Waterfall, about 220 ft high, is a beautiful spot with dense greenery. Visitors are advised to play in shallow waters for safety.</p>
-                    <p>Location: Devkund, Lavasa, Maharashtra</p>
-                    <img src="devkund.jpg" alt="Devkund Waterfall">
-                </details>
-                <li><b>5. Tenvar Dam</b> – Trekking and cycling routes with panoramic views.</li>
-                <details>
-                    <summary>Temghar Dam</summary>
-                    <p>Temghar Dam is an earthfill and gravity dam on the Mutha River near Mulshi, Pune district, Maharashtra.</p>
-                    <p>Location: Mulshi, Lavasa, Maharashtra</p>
-                    <img src="temghar.jpg" alt="Temghar Dam">
-                </details>
-                <li><b>6. bamboosa</b> – Less crowded spot ideal for nature lovers.</li>
-                <details>
-                    <summary>Bamboosa</summary>
-                    <p>Bamboosa is a cultural center and handicraft factory that showcases bamboo products. Visitors can observe artisans, buy furniture, decor items, and saplings from the on-site nursery.</p>
-                    <p>Location: Survey No. 60, Mugaon Lavasa, Post Pathershet, Taluka Mulshi, Pune, India</p>
-                    <img src="bamboosa.jpg" alt="Bamboosa Lavasa">
-                </details>
-            </ul>
-
-            <h3>Activities</h3>
-            <details>
-                <summary> 🚣 <strong>Boating:</strong>
-                You can enjoy boating at <em>Lake View</em>, surrounded by peaceful waters and hills. </summary>
-                <br>Best Time: <time datetime="06:00">9:00 AM – 11:00 AM</time> or <time datetime="16:00">4:00 PM – 6:00
-                    PM</time> when the lake is calm and the sun isn’t too harsh.
-            </details>
-            <details>
-                <summary> 🥾 <strong>Trekking:</strong> 
-                Explore the <em>Lingya Ghat Waterfall, Lavasa Nature Trail & Devkund waterfall Trek</em> which offer breathtaking views of Lavasa’s lake and hills. Moderate
-                difficulty suitable for beginners and experienced trekkers alike. </summary>
-                <br>Best Time: <time datetime="07:00">7:00 AM – 10:00 AM</time> or <time datetime="16:00">4:00 PM – 6:00
-                    PM</time> to avoid midday heat.
-            </details>
-            <details>
-                <summary> 🎨 <strong>Leisure Walks:</strong> 
-                Stroll along the <em>Lakeside, Portofino Street, Thicket Street & Hill View</em>, enjoy the European-style buildings, and take photos of the
-                colorful streets. A perfect way to relax.</summary>
-                <br>Best Time: <time datetime="17:00">5:00 PM – 7:00 PM</time>, especially during sunset for stunning views.
-            </details>
-        
-
-            <h3>Accommodations & Experiences</h3>
-            <ul>
-             
-                <li><b>7. Anatriksh</b> – Spiritual and serene temple on the hills.</li>
-               <details>
-                <summary>antakrish</summary>
-                 <div class="antariksh">
-    <h3>Hotel Antariksh</h3></div>
-    <div>
-    <p class="aboutantariksh">About This Hotel </p><br>
-     <img src="antariksh.jpeg" alt="">
-    </div>
-    <div class="text">
-        This is the only 5 star hotel available in the lavasa. This hotel is expensive as well as luxurious. this hotel is the first preference of every tourist .<br>
-       </div><div class="prizes"> Prizes<br></div>
-      <div class="rate">  1bhk=Rs 50000/day<br>
-        2bhk=Rs 80000/day<br>
-        3bhk=Rs 100000/day</div>
-               </details>
-
-                <li><b>8. Ekant</b> – Taste local and continental cuisine by the lake.</li>
-                <details>
-                    <summary>ekaant</summary>
-                    </div>
-    <div class="ekant"> <h3> Hotel Ekant</h3> </div>
-    <p class="aboutantariksh">About This Hotel </p><br>
-    </div>
-     <img src="ekant.jpg" alt="">
-    </div>
-    <div class="text">
-       This is not the 5 star hotel as Antariksh, but this hotel is affordable. In terms of luxurious it is very good and the food quality and the facilities available is also good.<br></div>
-       <div class="prize1"> Prizes </div>
-      <div class="rate1">  1bhk=Rs 10000/day<br>
-        2bhk=Rs 20000/day<br>
-        3bhk=Rs 500000/day</div>
-    
-    
-    </div>
-
-
-                </details>
-                <li><b>9. Celebrations</b> – Evening walks with stunning sunset views.</li>
-             <details>
-                <summary>celebrations</summary>
-                 <div class="celebration">
-        <h3> Celebration</h3>
-    </div>
-    <p class="aboutcelebration">About This Hotel </p><br>
-    </div>
-    <img src="celebration.jpg" alt="">
-    </div>
-    <div class="text">
-        This is the hotel that is allotted to the student of Christ university Pune lavasa, but tourist can also book this hotel.
-    <div class="prize2"> Prizes </div>
-    <div class="rate2"> 1bhk=Rs 650000/year<br>
-        2bhk=Rs 70000/year<br>
-        3bhk=Rs 900000/year</div>
-    
-    
-    </div>
-
-</div>
- </details>
-    
-</body>
-            
-            </ul>
-            </section>
             <div>
-                <img src="lavasa.jpg" alt="Lavasa City View">
+              <p class="aboutantariksh">About This Hotel </p><br>
+              <img src="antariksh.jpeg" alt="">
             </div>
+            <div class="text">
+              This is the only 5 star hotel available in the lavasa. This hotel is expensive as well as luxurious. this hotel is the first preference of every tourist .<br>
+            </div>
+            <div class="prizes"> Prizes<br></div>
+            <div class="rate">  1bhk=Rs 50000/day<br>2bhk=Rs 80000/day<br>3bhk=Rs 100000/day</div>
+          </details>
 
-           
-           
+          <li><b>8. Ekant</b> – Taste local and continental cuisine by the lake.</li>
+          <details>
+            <summary>ekaant</summary>
+            <div class="ekant"> <h3> Hotel Ekant</h3> </div>
+            <p class="aboutantariksh">About This Hotel </p><br>
+            <img src="ekant.jpg" alt="">
+            <div class="text">
+              This is not the 5 star hotel as Antariksh, but this hotel is affordable. In terms of luxurious it is very good and the food quality and the facilities available is also good.<br>
+            </div>
+            <div class="prize1"> Prizes </div>
+            <div class="rate1">  1bhk=Rs 10000/day<br>2bhk=Rs 20000/day<br>3bhk=Rs 500000/day</div>
+          </details>
 
-        </article>
-    </main>
-      
-    <footer>
-        <div class="row bg-dark text-light ps-5" style="width: 100%; height: 150px;">
-            <div class=" col-5 fs-4">contact us:
-                <section class="pb-5 fs-5">
-                    Email : bsccsds2025lavasa@bscdsh.christuniversity.in <br>
-                    Phone no. : +91 95576 48750 <br>
-                    Phone no. : +91 97242 97440
-                </section>
+          <li><b>9. Celebrations</b> – Evening walks with stunning sunset views.</li>
+          <details>
+            <summary>celebrations</summary>
+            <div class="celebration"><h3> Celebration</h3></div>
+            <p class="aboutcelebration">About This Hotel </p><br>
+            <img src="celebration.jpg" alt="">
+            <div class="text">
+              This is the hotel that is allotted to the student of Christ university Pune lavasa, but tourist can also book this hotel.
+              <div class="prize2"> Prizes </div>
+              <div class="rate2"> 1bhk=Rs 650000/year<br>2bhk=Rs 70000/year<br>3bhk=Rs 900000/year</div>
             </div>
-            <div class="col text-light">
-                <section class="fs-4">CHRIST<br></section>
-                <section class="fs-5">(Deemed to be University) <br></section>
-                <section>Christ University Road, 30 Valor Court At Post: Dasve Lavasa,<br>Taluka: Mulshi Pune 412112,
-                    Maharashtra</section>
-            </div>
-            <div class="col opacity-50  mt-2 ms-5">
-                Copyright @ 1BscCSDS PLC
-            </div>
-        </div>
-    </footer>
-   
+          </details>
+
+        </ul>
+      </section>
+
+      <div>
+        <img src="lavasa.jpg" alt="Lavasa City View">
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="row bg-dark text-light ps-5" style="width: 100%; height: 150px;">
+      <div class="col-5 fs-4">contact us:
+        <section class="pb-5 fs-5">
+          Email : bsccsds2025lavasa@bscdsh.christuniversity.in <br>
+          Phone no. : +91 95576 48750 <br>
+          Phone no. : +91 97242 97440
+        </section>
+      </div>
+      <div class="col text-light">
+        <section class="fs-4">CHRIST<br></section>
+        <section class="fs-5">(Deemed to be University) <br></section>
+        <section>Christ University Road, 30 Valor Court At Post: Dasve Lavasa,<br>Taluka: Mulshi Pune 412112, Maharashtra</section>
+      </div>
+      <div class="col opacity-50 mt-2 ms-5">
+        Copyright @ 1BscCSDS PLC
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
