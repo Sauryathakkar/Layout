@@ -1,6 +1,6 @@
 html,
 body {
-    background-image: url("trip.jpg");
+    background-image: url("back.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -65,13 +65,13 @@ a:hover {
 }
 
 #left-panel {
-    background-color: rgba(25, 40, 35, 0.85);
+    background-color: rgba(0, 0, 0, 0.551);
     backdrop-filter: blur(4px);
-    border-right: 1px solid #2e4630;
+   
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-    color: #d7e3d8;
+    color: #00000067;
 }
 
 #left-panel h2 {
@@ -141,7 +141,7 @@ header .nav-item:hover {
 
 article {
     background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    color: #02000259;
     padding: 30px;
     margin: 20px auto;
     max-width: 950px;
@@ -167,26 +167,26 @@ article ul {
 }
 
 details {
-    background-color: #1a1a1a;
+    background-color: #ffffff70;
     padding: 10px;
-    border: 1px solid #2e4630;
+    border: 1px solid #ffffff7d;
     border-radius: 6px;
     margin-top: 10px;
     transition: background-color 0.3s;
 }
 
 details:hover {
-    background-color: #202020;
+    background-color: #ffffff75;
 }
 
 summary {
     font-weight: 500;
     cursor: pointer;
-    color: #a5c6ac;
+    color: #0f0000;
 }
 
 summary:hover {
-    color: #b6d8bd;
+    color: #000000;
 }
 
 img {
@@ -201,6 +201,8 @@ img:hover {
 }
 
 footer {
+   
+    margin-left: 50px;
     background-color: #121212;
     color: #d7e3d8;
     padding: 20px;
