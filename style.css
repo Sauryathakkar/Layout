@@ -1,6 +1,6 @@
 html,
 body {
-    background-image: url("back.jpg");
+    background-image: url("trip.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -27,9 +27,7 @@ body {
     margin: 0;
     padding: 0;
     margin-left: 240px;
-
 }
-
 
 h1,
 h2,
@@ -56,22 +54,19 @@ a:hover {
 }
 
 #left-panel {
-    background-color: rgba(165, 205, 224, 0.8);
+    background-color: rgba(25, 40, 35, 0.85);
     backdrop-filter: blur(4px);
-    border-right: 1px solid #825eb6;
+    border-right: 1px solid #2e4630;
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
-}
-
-#left-panel {
-    background-color: rgba(0, 0, 0, 0.551);
-    backdrop-filter: blur(4px);
-   
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto;
-    color: #00000067;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    color: #d7e3d8;
+    z-index: 1000;
 }
 
 #left-panel h2 {
@@ -109,7 +104,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
 }
 
 header .row {
@@ -140,8 +135,8 @@ header .nav-item:hover {
 }
 
 article {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #02000259;
+    background-color: rgba(11, 11, 11, 0.7);
+    color: #ffffff;
     padding: 30px;
     margin: 20px auto;
     max-width: 950px;
@@ -167,26 +162,26 @@ article ul {
 }
 
 details {
-    background-color: #ffffff70;
+    background-color: #1a1a1a;
     padding: 10px;
-    border: 1px solid #ffffff7d;
+    border: 1px solid #2e4630;
     border-radius: 6px;
     margin-top: 10px;
     transition: background-color 0.3s;
 }
 
 details:hover {
-    background-color: #ffffff75;
+    background-color: #202020;
 }
 
 summary {
     font-weight: 500;
     cursor: pointer;
-    color: #0f0000;
+    color: #a5c6ac;
 }
 
 summary:hover {
-    color: #000000;
+    color: #b6d8bd;
 }
 
 img {
@@ -201,8 +196,6 @@ img:hover {
 }
 
 footer {
-   
-    margin-left: 50px;
     background-color: #121212;
     color: #d7e3d8;
     padding: 20px;
@@ -250,7 +243,7 @@ button:hover,
     background-color: #3b5e42;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     body {
         margin-left: 0;
     }
@@ -271,5 +264,49 @@ button:hover,
 
     article {
         margin: 15px;
+        padding: 20px;
+    }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+    header img {
+        max-width: 40px;
+    }
+
+    header .col-4 {
+        font-size: 1.3rem;
+    }
+
+    #left-panel h2 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #left-panel p,
+    #left-panel li {
+        font-size: 0.9rem;
+    }
+
+    article h2 {
+        font-size: 1.4rem;
+    }
+
+    article h3 {
+        font-size: 1.1rem;
+    }
+
+    article {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    footer .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .col {
+        margin-bottom: 15px;
     }
 }
